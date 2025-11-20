@@ -1,0 +1,63 @@
+/* Hide Streamlit's default sidebar */
+[data-testid="stSidebar"] {
+    display: none;
+}
+
+/* Full-screen background image */
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://3h.ca/wp-content/uploads/2024/10/AdobeStock_823601861-scaled.jpeg");
+    background-size: cover;       /* Cover full screen */
+    background-position: center;  /* Keep centered */
+    background-repeat: no-repeat; /* No repeat */
+    background-attachment: fixed; /* Stay fixed on scroll */
+}
+
+/* Center content */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Style buttons */
+button[kind="primary"] {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+/* Style input fields */
+input[type="password"], input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.4rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style success and error messages */
+.stAlert {
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+h1 , h2, h3, h4, h5, h6, p {
+    text-align : center;
+    color : white;
+}
+
+/* Footer styling */
+.footer {
+    position: fixed;
+    left: 15px;
+    bottom: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', sans-serif;
+    opacity: 0.85;
+    z-index: 9999;
+    line-height: 1.4;
+}
